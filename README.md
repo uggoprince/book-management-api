@@ -54,9 +54,12 @@ cp .env.example .env
 Edit the `.env` file with your Auth0 credentials:
 
 ```env
-AUTH0_DOMAIN=your-tenant.auth0.com
-AUTH0_AUDIENCE=https://books-dashboard-api
 PORT=4000
+AUTH0_DOMAIN=your-tenant.auth0.com
+AUTH0_AUDIENCE=your-auth0-audience
+DATABASE_PATH=database.sqlite
+FRONTEND_URL=your-frontend-url.com
+FRONTEND_URL_2=http://localhost:5173
 ```
 
 ## Running the Application
